@@ -1,0 +1,249 @@
+@import url(../styles/popup.css);
+
+.services {
+    padding: 150px 0;
+    background: #121212;
+    color: white;
+}
+
+.services h2 {
+    padding-left: 3px;
+}
+
+.services__item {
+    width: calc(50% - 5px);
+}
+
+.services__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px 10px;
+}
+
+.services__image {
+    margin-bottom: 24.94px;
+}
+
+.services__text {
+    padding-left: 6px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+.img-one,
+.img-two,
+.img-three,
+.img-four {
+    position: relative;
+}
+
+.img-one::before {
+    padding: 5px 22px;
+    content: 'от 2500₽/м²';
+    position: absolute;
+    left: 30px;
+    top: 31px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    background-color: #ad1818;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.img-two::before {
+    padding: 5px 22px 5px 20px;
+    content: 'от 3000₽/м²';
+    position: absolute;
+    left: 30px;
+    top: 31px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    background-color: #ad1818;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.img-three::before {
+    padding: 5px 20px;
+    content: 'от 30 000₽/мес';
+    position: absolute;
+    left: 30px;
+    top: 33.85px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    background-color: #ad1818;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.img-four::before {
+    padding: 5px 21px;
+    content: '5% от стоимости';
+    position: absolute;
+    left: 30px;
+    top: 33.85px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    background-color: #ad1818;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.services__btn {
+    margin-top: 100px;
+    width: 100%;
+    height: 151px;
+    font-family: 'Manrope';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    background: #ad1818;
+    color: #FFF;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.services__btn:hover {
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #ad1818;
+}
+
+@media (max-width: 1199px) {
+    .services {
+        padding: 150px 0 120px;
+    }
+
+    .services__image {
+        margin-bottom: 15px;
+    }
+
+    .services__text {
+        padding-left: 0;
+        font-size: 25px;
+        letter-spacing: -0.75px;
+    }
+
+    .img-one::before {
+        padding: 7px 26px 6px 27px;
+        left: 32px;
+        top: 31px;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    .img-two::before {
+        padding: 7px 26px 6px 27px;
+        left: 32px;
+        top: 31px;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    .img-three::before {
+        padding: 7px 25px 6px 26px;
+        left: 30px;
+        top: 32px;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    .img-four::before {
+        padding: 7px 29px 6px 29px;
+        left: 32px;
+        top: 32px;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    .services__btn {
+        margin-top: 80px;
+        padding: 56px 0;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services {
+        padding: 80px 0;
+    }
+
+    .services__items {
+        flex-direction: column;
+        gap: 60px 0;
+    }
+
+    .services__item {
+        width: 100%;
+    }
+
+    .services__image {
+        margin-bottom: 8px;
+        height: 240px;
+    }
+
+    .services__text {
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+
+    .img-one::before {
+        padding: 5px 23px 6px 24px;
+        left: 24px;
+        top: 23px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+    
+    .img-two::before {
+        padding: 5px 23px 6px 24px;
+        left: 24px;
+        top: 23px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .img-three::before {
+        padding: 5px 24px 6px 24px;
+        left: 22px;
+        top: 24px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .img-four::before {
+        padding: 6px 26px 5px 26px;
+        left: 24px;
+        top: 24px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .services__btn {
+        margin-top: 60px;
+        padding: 32px 0 36px;
+        height: 96px;
+        border-radius: 3.802px;
+        font-size: 22px;
+        letter-spacing: -0.66px;
+    }
+}

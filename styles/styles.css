@@ -1,0 +1,139 @@
+@import url(../styles/header.css);
+@import url(../styles/burger.css);
+@import url(../styles/interiors.css);
+@import url(../styles/about.css);
+@import url(../styles/projects.css);
+@import url(../styles/services.css);
+@import url(../styles/reviews.css);
+@import url(../styles/gallery.css);
+@import url(../styles/contacts.css);
+@import url(../styles/footer.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    background: white;
+    font-family: 'Manrope';
+    color: #121212;
+}
+
+.body__fixed {
+    overflow: hidden;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+.header {
+    margin-bottom: 70px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 125px;
+}
+
+.services__container {
+    padding: 0 124px;
+}
+
+.controls__container {
+    padding-left: 110px;
+}
+
+* {
+    letter-spacing: -0.03em;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    transition: 0.5s;
+}
+
+@media (max-width: 1199px) {
+    section {
+        margin-bottom: 120px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .controls__container {
+        padding: 0;
+    }
+
+    .title {
+        font-size: 18px;
+        line-height: normal;
+        letter-spacing: -0.54px;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        margin-bottom: 80px;
+    }
+
+    .container {
+        padding: 0 12px 0 13px;
+    }
+
+    .controls__container {
+        padding: 0;
+    }
+
+    .title {
+        margin-bottom: 20px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+}
+
+/* @media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    section {
+        margin-bottom: 120px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 13px;
+        max-width: 350px;
+    }
+
+    section {
+        margin-bottom: 76px;
+    }
+
+    .title {
+        margin-bottom: 17px;
+        font-size: 14px;
+    }
+} */
