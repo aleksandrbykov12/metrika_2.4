@@ -103,3 +103,57 @@
     background-size: cover;
     cursor: pointer;
 }
+
+@media (max-width: 1199px) {
+    .popup__content {
+        overflow-y: scroll;
+    }
+
+    .popup__close {
+        right: 44px;
+    }
+}
+
+@media (max-width: 767px) {
+    .popup__content {
+        width: calc(100% - 6px);
+        padding: 80px 24px 80px 16px;
+    }
+
+    .popup__title {
+        margin-bottom: 11px;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.75px;
+    }
+
+    .popup__text {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.42px;
+    }
+
+    .popup__input {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.54px;
+    }
+
+    .popup__items {
+        margin-bottom: 60px;
+        gap: 40px;
+    }
+
+    .popup__close {
+        width: 30px;
+        height: 30px;
+        top: 40px;
+        right: 29px;
+    }
+}
