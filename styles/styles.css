@@ -58,6 +58,14 @@ section {
     text-transform: uppercase;
 }
 
+.subtitle {
+    letter-spacing: -0.9px;
+}
+
+.text {
+    letter-spacing: -0.6px;
+}
+
 img {
     width: 100%;
 }
@@ -89,6 +97,10 @@ a {
         line-height: normal;
         letter-spacing: -0.54px;
     }
+
+    .subtitle {
+        letter-spacing: -0.75px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -112,6 +124,10 @@ a {
         margin-bottom: 20px;
         font-size: 14px;
         letter-spacing: -0.42px;
+    }
+
+    .subtitle {
+        letter-spacing: -0.54px;
     }
 }
 

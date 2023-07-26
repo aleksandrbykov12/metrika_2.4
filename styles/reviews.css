@@ -13,7 +13,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: -0.66px;
+    /* letter-spacing: -0.66px; */
     color: #000;
 }
 
@@ -24,8 +24,8 @@
 }
 
 .reviews__item {
-    width: 530px;
-    /* width: calc(50% - 25px); */
+    /* width: 530px; */
+    width: calc(50% - 45px);
 }
 
 .reviews__big {
@@ -48,9 +48,9 @@
         gap: 80px 10px;
     }
 
-    .reviews__item {
+    /* .reviews__item {
         width: 459px;
-    }
+    } */
 
     .reviews__big {
         width: 694px;

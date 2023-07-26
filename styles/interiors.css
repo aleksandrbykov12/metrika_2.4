@@ -33,7 +33,6 @@
     }
 
     .interiors__title {
-         margin-top: 128px;
          max-width: 802px;
          width: 100%;
          font-size: 50px;  
@@ -58,7 +57,6 @@
     }
 
     .interiors__title {
-        margin-top: 108px;
         margin-bottom: 25px;
         max-width: 336px;
         font-size: 30px;

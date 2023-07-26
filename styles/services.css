@@ -11,6 +11,7 @@
 }
 
 .services__item {
+    position: relative;
     width: calc(50% - 5px);
 }
 
@@ -30,15 +31,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: -0.9px;
 }
 
-.img-one,
+/* .img-one,
 .img-two,
 .img-three,
 .img-four {
     position: relative;
-}
+} */
 
 .img-one::before {
     padding: 5px 22px;
@@ -140,7 +140,6 @@
     .services__text {
         padding-left: 0;
         font-size: 25px;
-        letter-spacing: -0.75px;
     }
 
     .img-one::before {
@@ -203,7 +202,6 @@
 
     .services__text {
         font-size: 18px;
-        letter-spacing: -0.54px;
     }
 
     .img-one::before {
