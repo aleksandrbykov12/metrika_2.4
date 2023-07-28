@@ -34,14 +34,12 @@
             <a href="#contacts" class="header__link">контакты</a>
           </nav>
 
-          <button class="burger__btn js-burger-btn">
-            <!-- <img src="resources/burger/burger-btn.png" alt="" /> -->
-          </button>
+          <button class="burger__btn js-burger-btn"></button>
         </div>
       </div>
 
       <div class="js-burger burger">
-        <div class="js-burger__content burger__content">
+        <div class="burger__content">
           <div class="burger__logo">
             <a href="#" class="burger__logo-link">
               <img
@@ -57,7 +55,7 @@
             <a href="#services" class="burger__link">услуги</a>
             <a href="#contacts" class="burger__link">контакты</a>
           </nav>
-          <div class="burger__contacts-wrapper">
+          <div class="js-burger__content burger__contacts-wrapper">
             <p class="burger__text">для связи:</p>
             <div class="burger__contacts">
               <a href="tel:+79358954535" class="burger__contacts-link"
@@ -190,7 +188,11 @@
               <picture>
                 <source
                   media="(max-width: 767px)"
-                  srcset="resources/services/service_one.png"
+                  srcset="resources/services/services-mob-one.png"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="resources/services/services-tablet-one.png"
                 />
                 <img
                   class="services__image"
@@ -204,7 +206,11 @@
               <picture>
                 <source
                   media="(max-width: 767px)"
-                  srcset="resources/services/service_two.png"
+                  srcset="resources/services/services-mob-two.png"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="resources/services/services-tablet-two.png"
                 />
                 <img
                   class="services__image"
@@ -218,7 +224,11 @@
               <picture>
                 <source
                   media="(max-width: 767px)"
-                  srcset="resources/services/service_three.png"
+                  srcset="resources/services/services-mob-three.png"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="resources/services/services-tablet-three.png"
                 />
                 <img
                   class="services__image"
@@ -232,7 +242,11 @@
               <picture>
                 <source
                   media="(max-width: 767px)"
-                  srcset="resources/services/service_four.png"
+                  srcset="resources/services/services-mob-four.png"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="resources/services/services-tablet-four.png"
                 />
                 <img
                   class="services__image"
@@ -254,28 +268,28 @@
             <ul class="popup__items">
               <li class="popup__item">
                 <input
-                  type="text"
+                  type="name"
                   placeholder="Имя"
                   class="popup__input"
-                  id="name"
+                  name="name"
                   autocomplete="on"
                 />
               </li>
               <li class="popup__item">
                 <input
-                  type="text"
+                  type="email"
                   placeholder="Электронная почта"
                   class="popup__input"
-                  id="email"
+                  name="email"
                   autocomplete="on"
                 />
               </li>
               <li class="popup__item">
                 <input
-                  type="text"
+                  type="phone"
                   placeholder="Номер телефона"
                   class="popup__input"
-                  id="tel"
+                  name="phone"
                   autocomplete="on"
                 />
               </li>
