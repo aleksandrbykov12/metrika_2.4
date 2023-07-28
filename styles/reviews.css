@@ -53,7 +53,7 @@
     } */
 
     .reviews__big {
-        width: 694px;
+        max-width: 694px;
     }
 }
 
@@ -69,7 +69,8 @@
     }
 
     .reviews__text {
-        width: 355px;
+        /* width: 355px; */
+        width: 100%;
         font-size: 16px;
         letter-spacing: -0.48px;
     }
@@ -83,6 +84,7 @@
     }
 
     .reviews__big {
-        width: 348px;
+        /* width: 348px; */
+        width: 100%;
     }
 }

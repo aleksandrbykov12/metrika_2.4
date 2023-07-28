@@ -25,7 +25,7 @@
     max-height: 100%;
     background: #FFF;
     border-radius: 10px;
-    /* overflow-y: scroll; */
+    overflow-y: auto;
 }
 
 .popup__title {
@@ -105,10 +105,6 @@
 }
 
 @media (max-width: 1199px) {
-    .popup__content {
-        overflow-y: scroll;
-    }
-
     .popup__close {
         right: 44px;
     }
@@ -121,7 +117,7 @@
     }
 
     .popup__title {
-        margin-bottom: 11px;
+        margin-bottom: 15px;
         font-size: 25px;
         font-style: normal;
         font-weight: 400;
@@ -130,6 +126,8 @@
     }
 
     .popup__text {
+        margin-left: 56px;
+        max-width: 210px;     
         font-size: 14px;
         font-style: normal;
         font-weight: 400;

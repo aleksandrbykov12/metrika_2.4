@@ -44,4 +44,9 @@
     .header {
         margin-top: 31px;
     }
+
+    .header__logo {
+        width: 96px;
+        height: 16px;
+    }
 }
