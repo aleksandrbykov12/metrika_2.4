@@ -125,9 +125,7 @@
         letter-spacing: -0.75px;
     }
 
-    .popup__text {
-        margin-left: 56px;
-        max-width: 210px;     
+    .popup__text {    
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
