@@ -26,8 +26,8 @@
     width: calc(50% - 25px);
 }
 
-.reviews__big {
-    width: 861px;
+.reviews__item:last-child:nth-child(2n+1) {
+    width: 75%;
 }
 
 @media (max-width: 1199px) {

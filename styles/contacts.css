@@ -40,7 +40,7 @@
 }
 
 .contacts__mail::before {
-    background-image: url(../resources/contacts/mail.png);
+    background-image: url(../resources/contacts/telegram.png);
 }
 
 .contacts__t-btn:hover,
@@ -87,7 +87,6 @@
     }
 
     .contacts__mail::before {
-        background-image: url(../resources/contacts/mail-mob.png);
         width: 18px;
         height: 18px;
         top: -40px;
